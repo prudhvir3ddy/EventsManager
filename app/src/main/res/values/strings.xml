@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EventsManager</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="logout">logout</string>
+    <string name="events_br_manager">Events</string>
+    <string name="licenses_text">\tThe MIT License (MIT)\n
+        \tCopyright (&#169;) 2016  copyright PrudhviReddy\n\n
+       \t<a href="">MIT License</a>\n\n
+        \t\nThe following are third party software/api that are used in Promethean2k17 app.\n\n
+        \t<a href="https://github.com/amitshekhariitbhu/Fast-Android-Networking">Fast-Android-Networking</a>\n\n
+\t<a href="https://github.com/bumptech/glide">Glide</a>\n\n
+        \t<a href="https://github.com/OneSignal">One Signal</a>\n\n
+\t<a href="https://github.com/code-mc/loadtoast">Load Toast</a>\n\n
+        \t<a href="https://github.com/jd-alexander/LikeButton">Like Button</a>
+   </string>
+    <string name="opensource">Open Source Licenses</string>
+</resources>

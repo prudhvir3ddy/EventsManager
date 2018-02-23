@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.eventsmanager.root.eventsmanager.Activities.AddParticipated">
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Event Name"
+        android:layout_marginTop="16dp"
+        android:id="@+id/aeventname"/>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/aeventdesc"
+        android:hint="Enter Event Description,Experiences and manymore"/>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Year and Month ex: Aug 2017"
+        android:layout_marginTop="16dp"
+        android:id="@+id/aeventyear"/>
+    <Button
+        android:id="@+id/addparticipated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:text="Add Event"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

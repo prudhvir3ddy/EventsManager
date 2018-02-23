@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/participation"
+            android:icon="@drawable/raisehand"
+            android:title="Participated Events" />
+        <item
+            android:id="@+id/prizeevents"
+            android:icon="@drawable/cup"
+            android:title="Prize Winning Events" />
+        <item
+            android:id="@+id/intrests"
+            android:icon="@drawable/like"
+            android:title="My Intrests" />
+        <item
+            android:id="@+id/notifcations"
+            android:icon="@drawable/notifications"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/license"
+            android:icon="@drawable/license"
+            android:title="Open Source Licenses" />
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/bugreport"
+            android:title="Report A Bug" />
+
+    </group>
+
+    <item android:title="Developed by">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/development"
+                android:title="Prudhvi Reddy" />
+        </menu>
+    </item>
+
+</menu>

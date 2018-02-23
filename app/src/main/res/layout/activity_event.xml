@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel_lay">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/c1"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/eventimg"
+                    android:src="@drawable/event"/>
+                <ProgressBar
+                    android:id="@+id/progress"
+                    android:visibility="visible"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:foregroundGravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c1"
+            app:cardElevation="10dp"
+            android:id="@+id/c2"
+            app:cardUseCompatPadding="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/desc_r1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Event Description :"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:text="DESCRIPTION"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventdescription"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/desc_r1"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:layout_below="@+id/c2"
+            android:layout_marginTop="20dp"
+
+            >
+
+            <com.like.LikeButton
+                app:icon_type="star"
+                app:icon_size="16dp"
+                android:id="@+id/b1"
+                android:elevation="2dp"
+                android:paddingRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:background="@color/colorAccent"
+                />
+           <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+            <Button
+                android:background="@color/colorAccent"
+                android:id="@+id/participate"
+                android:layout_width="wrap_content"
+                android:elevation="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:text="participate" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

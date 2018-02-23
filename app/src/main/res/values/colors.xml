@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue_1">#eae9fe</color>
+    <color name="blue_2">#ccc8fc</color>
+    <color name="blue_3">#ada8fb</color>
+    <color name="blue_4">#8f87f9</color>
+    <color name="blue_5">#7067f8</color>
+    <color name="black_background">#2C2D2E</color>
+    <color name="gray">#6E6E6F</color>
+    <color name="light_blue">#13BFFF</color>
+    <color name="colorPrimary">#0097a7</color>
+    <color name="colorPrimaryDark">#00838f</color>
+    <color name="colorAccent">#e91e63</color>
+    <color name="black">#000000</color>
+    <color name="blacklow">#60000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#f44336</color>
+    <color name="blue">#2196f3</color>
+    <color name="teal">#009688</color>
+
+    <color name="color_material_bold">#EC407A</color>
+    <color name="color_material_motion">#6A1B9A</color>
+    <color name="color_permissions">#FFEB3B</color>
+    <color name="color_custom_fragment_1">#E64A19</color>
+    <color name="color_custom_fragment_2">#3F51B5</color>
+    <color name="color_canteen">#fdfdfd</color>
+    <color name="color_fragment_green">#4CAF50</color>
+    <color name="color_dark_material_bold">#D81B60</color>
+    <color name="color_dark_material_motion">#4A148C</color>
+    <color name="color_dark_permissions">#FBC02D</color>
+    <color name="color_dark_custom_fragment_1">#BF360C</color>
+    <color name="color_dark_custom_fragment_2">#303F9F</color>
+    <color name="color_dark_canteen">#ebeef0</color>
+    <color name="color_fragment_green_dark">#1B5E20</color>
+</resources>
